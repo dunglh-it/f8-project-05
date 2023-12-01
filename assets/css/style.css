@@ -121,6 +121,7 @@ input, textarea, select, button {
 .course-item .thumb {
     width: 100%;
     height: 318px;
+    object-fit: cover;
 }
 
 .course-item .info {
@@ -427,4 +428,197 @@ svg + .brand__desc {
     margin-left: 17px;
     background-color: var(--primary-color);
     fill: #fff;
+}
+
+/* About */
+.about__inner {
+    display: flex;
+    gap: 55px;
+}
+
+.about__picture {
+    position: relative;
+    width: 50%;
+}
+
+.about__images {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about__img {
+    width: 280px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 200px;
+}
+
+.about__img-bt {
+    margin-top: 77px;
+}
+
+.about__img-vector {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    right: 0;
+    transform: rotate(12deg);
+}
+
+.about__img-flower {
+    width: 82px;
+    position: absolute;
+    top: -8%;
+    left: 5%;
+    height: 82px;
+    object-fit: cover;
+}
+
+.about__summary {
+    position: absolute;
+    font-family: "Public Sans";
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 19px 23px 12px;
+    box-shadow: 0px 7px 54px 0px rgba(154, 154, 154, 0.25);
+}
+
+.about__title {
+    font-size: 1.4rem;
+    line-height: 1;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+
+.about__desc {
+    margin-top: 6px;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #575D5E;
+}
+
+.about__mea {
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: var(--heading-color);
+    font-weight: 500;
+}
+
+.about__horizontal {
+    position: relative;
+    margin-top: 3px;
+    width: 100%;
+    height: 2px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+}
+
+.about__horizontal::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    background-color: #83A17D;
+    border-radius: 10px;
+}
+
+.about__loading {
+    margin-top: 3px;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 500;
+    color: var(--heading-color);
+    text-align: right;
+}
+
+.about__dot {
+    margin-top: 3px;
+    width: 11px;
+    height: 11px;
+    background-color: #eaeaea;
+    border-radius: 50%;
+    position: relative;
+}
+
+.about__dot::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5px;
+    height: 5px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
+
+.about__teams {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+
+.about__avatars {
+    display: flex;
+    align-items: center;
+}
+
+.teams-title {
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--heading-color);
+}
+
+.about__avatar {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-left: -7px;
+}
+
+.about__heading {
+    margin-top: 20px;
+}
+
+.about__desc {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.63;
+}
+
+.about__percent-item {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    gap: 24px;
+    border-bottom: 1px solid #83A17D;
+}
+
+.percent-number {
+    font-family: "Poppins", sans-serif;
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+
+.percent-desc {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.71;
+    color: var(--text-color);
 }
