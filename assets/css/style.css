@@ -714,6 +714,22 @@ svg + .brand__desc {
 .project {
     margin-top: 148px;
     background-color: var(--primary-color);
+    position: relative;
+}
+
+.project-vector {
+    position: absolute;
+    top: 28%;
+    right: -16%;
+    transform: rotate(16deg);
+    z-index: 2;
+}
+
+.project-flower {
+    position: absolute;
+    top: 21%;
+    right: calc(20% + 4px);
+    z-index: 3;
 }
 
 .project__inner {
