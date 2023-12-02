@@ -709,3 +709,52 @@ svg + .brand__desc {
     line-height: 1.56;
     color: var(--text-color);
 }
+
+/* Projects */
+.project {
+    margin-top: 148px;
+    background-color: var(--primary-color);
+}
+
+.project__inner {
+    padding: 146px 0 63px;
+}
+
+.project__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project__heading {
+    width: 457px;
+    color: #e7f9f9;
+}
+
+.project__heading .separating {
+    background-color: #83A17D;
+}
+
+.info-desc {
+    width: 590px;
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    line-height: 1.56;
+    font-weight: 500;
+}
+
+.project__desc {
+    color: #6A8383;
+}
+
+.project__link {
+    display: block;
+    margin-top: 13px;
+    color: #fff;
+    align-self: center;
+}
+
+.arrow-right {
+    margin-left: 26px;
+    fill: #80A07B;
+}
