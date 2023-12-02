@@ -805,3 +805,79 @@ svg + .brand__desc {
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+/* Features */
+.features {
+    margin-top: 140px;
+}
+
+.features__heading {
+    width: 520px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.features__desc {
+    width: 547px;
+    font-size: 1.6rem;
+    line-height: 1.63;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.features__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+    margin-top: 103px;
+}
+
+.features__item {
+    border-radius: 45%;
+    border: 1.5px solid #cecece;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.features__item-title {
+    margin-top: 26px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--heading-color);
+}
+
+.features__item-desc {
+    margin-top: 9px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.71;
+    color: var(--text-color);
+}
+
+.item-blog {
+    padding: 80px 27px 74px 37px;
+}
+
+.item-blog .features__item-icon {
+    width: 39px;
+    height: 35px;
+}
+
+.item-blog .features__item-desc {
+    width: 286px;
+}
+
+.item-document {
+    padding: 60px 43px 103px ;
+}
+
+.item-document .features__item-icon {
+    width: 50px;
+    height: 51px;
+}
+
+.item-document .features__item-desc {
+    width: 286px;
+}
