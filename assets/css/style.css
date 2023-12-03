@@ -840,6 +840,15 @@ svg + .brand__desc {
     font-family: "Poppins", sans-serif;
 }
 
+.features__item:hover {
+    background: #FFF;
+    box-shadow: 0px 36px 100px 0px rgba(111, 120, 111, 0.20);
+    border: none;
+    transform: translateY(-59px);
+    transition: 0.3s ease-in-out all;
+    cursor: pointer;
+}
+
 .features__item-title {
     margin-top: 26px;
     font-size: 2rem;
@@ -879,5 +888,18 @@ svg + .brand__desc {
 }
 
 .item-document .features__item-desc {
-    width: 286px;
+    width: 264px;
+}
+
+.item-people {
+    padding: 43px 43px 121px 46px;
+}
+
+.item-people .features__item-icon {
+    width: 49px;
+    height: 49px;
+}
+
+.item-people .features__item-desc {
+    width: 264px;
 }
